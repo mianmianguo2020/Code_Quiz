@@ -54,7 +54,9 @@ var questionPops = [
    
 ]
 console.log(questionPops);
-
+console.log(questionPops[0])
+console.log(questionPops[0].answers)
+console.log(questionPops[0].answers[0])
 
 
 function generateQ() {
@@ -63,14 +65,16 @@ function generateQ() {
 
 
     var answersList = document.createElement("div");
-    answersList.innerHTML = questionPops[0].answers[0];
-    answersList.innerHTML = questionPops[0].answers[1];
-    answersList.innerHTML = questionPops[0].answers[2];
-    answersList.innerHTML = questionPops[0].answers[3];
+    answersList.innerHTML = questionPops[0].answers[0].a;
+    answersList.innerHTML += questionPops[0].answers[1].b;
+    answersList.innerHTML += questionPops[0].answers[2].c;
+    // answersList.innerHTML = questionPops[0].answers[3].d;
+
+    console.log(answersList);
 
     
 document.getElementById("questions").append(myQuestion);
-document.getElementById("answerList").append.JSON.parse(answersList);
+document.getElementById("answerList").append(answersList);
 
 // document.getElementById("answerList").append(answersList{});
 console.log("here");
