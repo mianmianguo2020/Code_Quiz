@@ -1,0 +1,24 @@
+.content{
+    margin: auto;
+    width: 50%;
+    margin-top: 100px;
+    
+   
+    
+}
+
+li {
+    background: #3399ff;
+    margin:5px 0px; 
+    
+}
+
+
+#timer {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+
+
+}
