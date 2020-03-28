@@ -35,8 +35,9 @@ The following animation demonstrates the application functionality:
 You are required to submit the following for review:
 
 * The URL of the functional, deployed application.
+https://mianmianguo2020.github.io/homework_4-code-quiz/
+
+
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+https://github.com/mianmianguo2020/homework_4-code-quiz
